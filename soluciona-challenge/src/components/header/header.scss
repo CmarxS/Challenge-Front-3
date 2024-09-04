@@ -1,0 +1,31 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    img{
+        width: 75%;
+        height: auto
+    }
+}
+
+@media (max-width: 800px) {
+    header{
+        background-color: var(--azul-porto);
+        .logo-soluciona{
+            display: none;
+        }
+        button{
+            display: none;
+        }
+        .profile-header{
+            width: 100%;
+            justify-content: flex-start;
+            img{
+                width: 20%;
+                border-radius: 100%;
+            }
+        }
+    }
+}

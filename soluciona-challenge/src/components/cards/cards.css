@@ -32,3 +32,20 @@
     margin: 0;
     padding: 10px;
 }
+@media (max-width: 768px){
+    .card{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 4%;
+    }
+    .card img{
+        width: 15%;
+        height: auto;
+    }
+    .card h6{
+        font-size: 1rem;
+    }
+    
+}

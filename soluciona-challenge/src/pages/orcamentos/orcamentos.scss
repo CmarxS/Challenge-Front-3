@@ -53,6 +53,7 @@
     margin-top: 1%;
     height: auto;
     padding: 20px;
+    display: none;
     &:hover{
         border-bottom: var(--azul-porto) 5px solid;
         border-right: var(--azul-porto) 5px solid;
@@ -67,7 +68,6 @@
         font-weight: 600;
         font-style: italic;
     }
-    display: none;
     &.show{
         display: flex;
     }

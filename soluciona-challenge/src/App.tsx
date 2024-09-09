@@ -13,6 +13,7 @@ import Chat from './pages/chatIA/chat'
 import Orcamentos from './pages/orcamentos/orcamentos'
 import Pre from './pages/preInicial/pre'
 import CadastroVeiculo from './pages/cadastroVeiculo/cadastroVeiculo'
+import Menu from './pages/menu/menu'
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
       <Route path="/informacoes-conta" element={<InfosClientes />} />
       <Route path="/orcamentos" element={<Orcamentos />} />
       <Route path="/pre" element={<Pre />} />
+      <Route path="/menu" element={<Menu/>} />
       <Route path="*" element={<Pre/>} />
     </Routes>
     </BrowserRouter>

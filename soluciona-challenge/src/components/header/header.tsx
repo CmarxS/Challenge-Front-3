@@ -9,6 +9,7 @@ const Header = () => {
             <Link to='/informacoes-conta'>
                 <div className="profile-header">
                 <img src="src/images/Profile.png" alt="" />
+                Olá, Usuário
                 </div>
             </Link>
             <BCA />

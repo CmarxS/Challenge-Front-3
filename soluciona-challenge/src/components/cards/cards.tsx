@@ -3,7 +3,7 @@ import './cards.css';
 interface CardsProps{
     imagem: string;
     texto: string;
-    cor: string
+    cor?: string
     onClick?: () => void;
 }
 

@@ -1,4 +1,4 @@
-import './cards.css';
+import './cards.scss';
 
 interface CardsProps{
     imagem: string;

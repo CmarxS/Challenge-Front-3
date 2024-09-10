@@ -1,6 +1,6 @@
 import { PropsWithChildren } from 'react';
-import './formulario.css'
-import { Link } from 'react-router-dom';
+import './formulario.scss'
+import { Link, useNavigate } from 'react-router-dom';
 interface FormularioProps extends PropsWithChildren<{}> {
     h2: string;
     h4: string;
@@ -10,10 +10,16 @@ interface FormularioProps extends PropsWithChildren<{}> {
     enderecoLink: string;
 }
 
-const formulario = ({ h2, h4, h5, link, botao, enderecoLink ,children}: FormularioProps) => { 
+const Formulario = ({ h2, h4, h5, link, botao, enderecoLink ,children}: FormularioProps) => { 
+    const navigate = useNavigate();
+
+    const handleSubmit = (event: React.FormEvent) => {
+        event.preventDefault();
+        navigate('/');
+    };
     return (
         <div className="container-formulario">
-        <form>
+        <form onSubmit={handleSubmit}>
         <h2>{h2}</h2>
         <h4>{h4}</h4>
             {children}
@@ -26,4 +32,4 @@ const formulario = ({ h2, h4, h5, link, botao, enderecoLink ,children}: Formular
     );
     }
 
-export default formulario;
+export default Formulario;

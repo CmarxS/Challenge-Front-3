@@ -1,9 +1,8 @@
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
-import './infosCliente.css';
+import './infosCliente.scss';
 import { useState } from "react";
 
-//Pedir ajuda na aula pro professor
 const InfosClientes = () => {
 
     const [ChangeAble, setChangeAble] = useState<boolean>(true);

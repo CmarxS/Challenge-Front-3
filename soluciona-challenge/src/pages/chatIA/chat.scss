@@ -1,5 +1,5 @@
 .ia {
-    min-height: 80vh;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,4 +70,26 @@
             }
         }
     }
+}
+@media (max-width: 768px) {
+    .ia {
+        .container-chat {
+            width: 90%;
+            img {
+                width: 40%;
+            }
+            .container-input-ia {
+                input {
+                    font-size: 80%;
+                }
+                .container-sugestoes {
+                    .sugestoes {
+                        margin-bottom: 1%;
+                        font-size: 60%;
+                    }
+                }
+            }
+        }
+    }
+    
 }

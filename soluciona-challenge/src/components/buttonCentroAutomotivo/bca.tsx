@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './bca.css'
+import './bca.scss'
 const BCA = () => {
     return (
         <div>

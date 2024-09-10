@@ -8,11 +8,13 @@ const Header = () => {
             <Link to={'/'}><img className='logo-soluciona' src="src/images/LogoChallenge - Copia.png" alt="" /></Link>
             <Link to='/informacoes-conta'>
                 <div className="profile-header">
-                <img src="src/images/Profile.png" alt="" />
-                Olá, Usuário
+                    <img src="src/images/Profile.png" alt="" />
+                    Olá, Usuário
                 </div>
             </Link>
-            <BCA />
+            <div className="button-container">
+                <BCA />
+            </div>
         </header>
     );
 };

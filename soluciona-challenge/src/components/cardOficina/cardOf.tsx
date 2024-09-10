@@ -1,4 +1,4 @@
-import './cardOf.css';
+import './cardOf.scss';
 
 interface CardOfProps {
     nome: string;

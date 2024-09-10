@@ -72,6 +72,9 @@ const Oficinas = () => {
                     ))}
                 </div>
             </main>
+            <main className="mapa-oficinas">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.8423555441677!2d-46.62580232550979!3d-23.57410467879111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597abf1a28ff%3A0x1b02a58f85e6395e!2zRklBUCAtIEFjbGltYcOnw6Nv!5e0!3m2!1spt-BR!2sbr!4v1725913867819!5m2!1spt-BR!2sbr" title="Google Maps"></iframe>
+            </main>
             <Footer />
         </>
     );

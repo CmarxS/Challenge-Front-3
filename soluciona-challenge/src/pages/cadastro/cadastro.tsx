@@ -2,6 +2,7 @@ import Footer from "../../components/footer/footer";
 import Formulario from "../../components/formulario/formulario";
 import Header from "../../components/header/header";
 import Input from "../../components/input/input";
+import './cadastro.scss';
 
 const Cadastro = () => {
     return (
@@ -17,6 +18,13 @@ const Cadastro = () => {
                 <Input type="text" name="placa" placeholder="Digite a placa do seu carro" pattern="([A-Z]{3}-\d{4}|[A-Z]{3}\d[A-Z]\d{2})" />
                 <Input type="password" name="password" placeholder="Digite sua senha" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" />
                 <Input type="password" name="password" placeholder="Confirme sua senha" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" />
+                <h4>A senha deve conter:</h4>
+                <ul>
+                    <li>No mínimo 8 caracteres</li>
+                    <li>No mínimo 1 letra maiúscula</li>
+                    <li>No mínimo 1 letra minúscula</li>
+                    <li>No mínimo 1 número</li>
+                </ul>
             </Formulario>
             <Footer />
         </div>

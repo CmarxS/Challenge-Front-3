@@ -14,7 +14,7 @@ O site contém informações dos veículos registrados e do usuário. Para acess
 
 ## **Integrantes**
 - **Caio Marques** (RM 555997)
-- **Felipe Camargo** (RM 556325)
+- **Felipe Camargo Revolta e Souza** (RM 556325)
 - **...**
 
 ## **Turma**

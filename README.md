@@ -19,3 +19,8 @@ O site contém informações dos veículos registrados e do usuário. Para acess
 
 ## **Turma**
 - **1TDSR**
+
+## **Links**
+- Youtube - https://youtu.be/552KfV_Zkow
+- Github - https://github.com/CmarxS/Challenge-Front-3
+- Figma - https://www.figma.com/design/JLwXOMlYqJsJqMbSoxyNzN/Challenge?node-id=0-1&node-type=canvas&t=YmEyJRWRhag5sA5l-0

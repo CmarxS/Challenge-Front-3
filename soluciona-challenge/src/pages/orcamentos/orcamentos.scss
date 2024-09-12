@@ -74,8 +74,11 @@
 }
 @media (max-width: 768px){
     .container-input-orcamento{
+        justify-content: center;
+        padding-left: 5%;
+        padding-right: 5%;
         input{
-            width: 60%;
+            width: 70%;
         }
         button{
             width: 20%;

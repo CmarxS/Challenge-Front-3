@@ -21,7 +21,6 @@ O site contém informações dos veículos registrados e do usuário. Para acess
 - Necessário ter a versão 20.15.1 do **NodeJS**
 - Necessário ter a versão 10.7.0 do **Node Package Manager (NPM)**
 - Rodar o npm install
-- Instalar o SCSS (npm install sass –save-dev)
 - Rodar o npm run dev
 
 ## **Integrantes**
